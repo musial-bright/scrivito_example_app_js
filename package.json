@@ -65,6 +65,7 @@
     "sass": "^1.55.0",
     "sass-loader": "^13.0.2",
     "scrivito": "^1.36.0",
+    "scrivito-form-widgets": "^1.0.2",
     "scroll-to-fragment": "^1.0.12",
     "slick-carousel": "^1.6.0",
     "speakingurl": "^14.0.1",

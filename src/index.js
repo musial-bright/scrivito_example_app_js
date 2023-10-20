@@ -7,6 +7,11 @@ import { App } from "./App";
 import { configure } from "./config";
 import "./assets/stylesheets/index.scss";
 
+import { initScrivitoFormWidgets } from "scrivito-form-widgets";
+initScrivitoFormWidgets(process.env.SCRIVITO_TENANT);
+import "scrivito-form-widgets/index.css";
+
+
 configure();
 
 if (window.preloadDump) {
