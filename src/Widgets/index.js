@@ -1,3 +1,7 @@
+import { initScrivitoFormWidgets } from "scrivito-form-widgets";
+initScrivitoFormWidgets(process.env.SCRIVITO_TENANT);
+import "scrivito-form-widgets/index.css";
+
 function importAll(r) {
   r.keys().forEach(r);
 }
